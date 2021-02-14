@@ -59,7 +59,7 @@
     - replace `passpass` with the MySQL root password for your computer system
     
     
-NOTE: **UPDATED** (see the library and sample project: [https://github.com/dr-matt-smith/pdo-crud-for-free-repositories](https://github.com/dr-matt-smith/pdo-crud-for-free-repositories)) the library now uses '.env' files like this:
+NOTE: **UPDATED** (see the library and sample project: [https://github.com/dr-matt-smith/pdo-crud-for-free-repositories](https://github.com/dr-matt-smith/pdo-crud-for-free-repositories)) the library now uses `.env` files like this:
 
 ```env
 MYSQL_USER=root
