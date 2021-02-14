@@ -46,7 +46,7 @@
     HERE;
     ```
   
-- add a new folder `/config` and inside it a PHP script `dbConstants.php` defining 4 DB constants:
+- ::: OUT OF DATE::: add a new folder `/config` and inside it a PHP script `dbConstants.php` defining 4 DB constants:
 
     ```php
     <?php
@@ -57,6 +57,17 @@
     ```
     
     - replace `passpass` with the MySQL root password for your computer system
+    
+    
+NOTE: **UPDATED** (see the library and sample project: [https://github.com/dr-matt-smith/pdo-crud-for-free-repositories](https://github.com/dr-matt-smith/pdo-crud-for-free-repositories)) the library now uses '.env' files like this:
+
+```env
+MYSQL_USER=root
+MYSQL_PASSWORD=passpass
+MYSQL_HOST=127.0.0.1
+MYSQL_PORT=3306
+MYSQL_DATABASE=evote
+```
     
 - edit `db/migrationsAndFixtures.php` to read as follows:
 
